@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.head1{
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+}
+.img1{
+    width: 100px;
+    width: 150px;
+}
+.bt1{
+    background-color:red;
+    color: white;
+    width: 75px;
+    height: 35px;
+    
+}
+
+.bt2{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    width: 75px;
+    height: 33px;
+    
+}
+.navi {
+  display: flex;
+  justify-content: space-evenly; /* or use space-evenly if you want equal space between all items */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000; /* optional: for styling */
+  color: #fff; /* optional: for styling */
+}
+.bt1:hover{
+    background-color:grey
+}
+.bt2:hover{
+    background-color: grey
+}
+.div1 {
+  flex: 1;
+  text-align: center;
+}
+.div6 {
+  display: flex;
+  gap: 10px;
+}
+h1,p,h2,h3{
+    color: white;
+}
+
+img{
+    width: 150px;
+    
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: auto auto auto;
+}
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+body{
+    background-color: black;
+}
